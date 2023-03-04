@@ -1,0 +1,45 @@
+ห้องสมุดท้องถิ่น = loadstring (เกม: HttpGet ("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("doors but bad script by rip_Masjhzjp", "LightTheme")
+
+แท็บในเครื่อง = หน้าต่าง:แท็บใหม่("หลัก")
+
+ส่วนท้องถิ่น = แท็บ:ส่วนใหม่("ชื่อส่วน")
+
+ส่วน:NewButton("Fov", "fuck", function()
+
+    พื้นที่ทำงาน CurrentCamera.FieldOfView = 120
+
+จบ)
+
+ส่วน:NewButton("ความเร็ว", "เอ่อ", ฟังก์ชัน()
+
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+
+จบ)
+
+ส่วน:NewButton("FullBright", "ButtonInfo", function()
+
+    Local Light = game:GetService("แสงสว่าง")
+
+ 
+
+ฟังก์ชัน dofullbright()
+
+Light.Ambient = Color3.new(1, 1, 1)
+
+Light.ColorShift_Bottom = Color3.new(1, 1, 1)
+
+Light.ColorShift_Top = Color3.new(1, 1, 1)
+
+จบ
+
+ 
+
+ดูฟูลไบรท์()
+
+ 
+
+Light.LightingChanged:Connect(dofullbright)
+
+จบ)...
